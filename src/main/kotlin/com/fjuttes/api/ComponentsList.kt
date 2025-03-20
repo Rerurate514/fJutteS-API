@@ -958,7 +958,7 @@ val langSwitcher = Component(
 @RestController
 @RequestMapping("/components")
 class ComponentsListController {
-    @GetMapping("/")
+    @GetMapping("")
     fun getComponentsList(): List<Component> {
         return listOf(
             accordion,
